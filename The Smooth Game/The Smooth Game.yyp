@@ -1,0 +1,53 @@
+{
+  "$GMProject":"v1",
+  "%Name":"The Smooth Game",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"PlayerSprites","folderPath":"folders/Sprites/PlayerSprites.yy","name":"PlayerSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.2.212",
+  },
+  "name":"The Smooth Game",
+  "resources":[
+    {"id":{"name":"obj_block_green","path":"objects/obj_block_green/obj_block_green.yy",},},
+    {"id":{"name":"obj_block_red","path":"objects/obj_block_red/obj_block_red.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_controls_view","path":"objects/obj_controls_view/obj_controls_view.yy",},},
+    {"id":{"name":"obj_dust","path":"objects/obj_dust/obj_dust.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
+    {"id":{"name":"scr_animation","path":"scripts/scr_animation/scr_animation.yy",},},
+    {"id":{"name":"scr_colision","path":"scripts/scr_colision/scr_colision.yy",},},
+    {"id":{"name":"spr_block_green","path":"sprites/spr_block_green/spr_block_green.yy",},},
+    {"id":{"name":"spr_block_red","path":"sprites/spr_block_red/spr_block_red.yy",},},
+    {"id":{"name":"spr_controls_view","path":"sprites/spr_controls_view/spr_controls_view.yy",},},
+    {"id":{"name":"spr_dust","path":"sprites/spr_dust/spr_dust.yy",},},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"spr_player_moving","path":"sprites/spr_player_moving/spr_player_moving.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
